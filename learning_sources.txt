@@ -1,0 +1,11 @@
+Source links for learning:
+
+How to install tensorflow : https://www.youtube.com/watch?v=1y8RM4pzM0s + https://github.com/murtazahassan/Digits-Classification/tree/master 
+
+Traffic sign code: https://www.youtube.com/watch?v=SWaYRyi0TTs
+
+Traffic Sign in Colab : https://www.youtube.com/watch?v=fJYYmyuJm9I 
+
+CV in Roboflow : https://www.youtube.com/watch?v=75ET6mmDL14&list=PLkz_y24mlSJZpIGbH3ENoeh_amJpJ2BME 
+
+

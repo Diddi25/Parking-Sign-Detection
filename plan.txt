@@ -1,0 +1,14 @@
+
+Steps:
+
+- Skriv testet, typ kopiera
+- Prova att lägga till bilder
+- Installera tensorflow 
+- kör
+- rätta fel
+- experimentera
+- rätta dataset
+
+- följ det som görs i Colab
+
+- följ det som anropas som API till roboflow 
