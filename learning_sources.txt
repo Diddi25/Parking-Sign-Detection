@@ -8,4 +8,6 @@ Traffic Sign in Colab : https://www.youtube.com/watch?v=fJYYmyuJm9I
 
 CV in Roboflow : https://www.youtube.com/watch?v=75ET6mmDL14&list=PLkz_y24mlSJZpIGbH3ENoeh_amJpJ2BME 
 
+Using YOLOv7 for object detection: https://www.youtube.com/watch?v=5nsmXLyDaU4 
+
 
