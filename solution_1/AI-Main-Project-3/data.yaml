@@ -1,0 +1,26 @@
+names:
+- bus
+- car
+- charging
+- cycle
+- dayBeforeHoliday
+- fee
+- handicapped
+- holiday
+- motorcycle
+- parking_disc
+- prohibitedParkingDayBefore
+- prohibitedParkingHoliday
+- prohibitedParkingWeekday
+- timetable
+- weekday
+nc: 15
+roboflow:
+  license: CC BY 4.0
+  project: ai-main-project
+  url: https://universe.roboflow.com/aiproject-1rkj1/ai-main-project/dataset/3
+  version: 3
+  workspace: aiproject-1rkj1
+test: ../test/images
+train: AI-Main-Project-3/train/images
+val: AI-Main-Project-3/valid/images
