@@ -24,7 +24,8 @@ This project was developed by:
 - PyTorchVision
 - EasyOCR
 - NVIDIA CUDA Toolkit
-- Compatible GPU-routines (we used NVIDIA GeForce GTX 1080)
+- NVIDIA cuDNN
+- Compatible GPU-routines (we used NVIDIA GeForce GTX 1080, CUDA v.11.8)
 
 ### Installing steps
 
@@ -46,6 +47,18 @@ This project was developed by:
    ```bash
    py cuda_check.py
    ```
+If something goes wrong, check cuda version:
+   ```bash
+   nvcc --version 
+   ```
+Install compatible torch dependency for your cuda version:
+   ```bash
+   pip install torch torchvision torchaudio --index-url https://download.pytorch.org/whl/cu118 
+   ```
+   ```bash
+   pip install torchvision==0.20.1+cu118 --index-url https://download.pytorch.org/whl/cu118
+   ```
+
 
 #### Using our custom dataset for testing:
    - Ask one of the contributors for API-key to 
@@ -66,7 +79,7 @@ This project was developed by:
 Detect objects in parking signs:
 ```bash
 cd yolov7
-python detect.py --weights yolov7.pt --source <image_or_video_path> --conf-thres 0.25
+py detect.py --weights runs/train/exp17/weights/best.pt --conf 0.1 --source 'path to this image: p-skiva-skylt_jpg.rf.9cf6eba217156be500efb441efd91d90.jpg' --save-txt
 ```
 
 ### Text Recognition
@@ -83,10 +96,14 @@ python end2end.py
 
 **Output**:
 ```plaintext
-Based on the current date today: 2025-01-02, Thursday, at time: 10:30:
-- You are allowed to park between: 08:00-18:00.
-- You can park up to: 2 hours.
-- A parking disc is required.
+Based on the current date today: 2025-01-03, Friday, at time: 19:06:
+You are allowed to park between: 9-19.
+You can park up to: 1 timmar.
+You have to have a parking disc.
+
+Övrig information:
+Utanför tidsramen 9-19 kan du parkera längre än 1 timmar.
+Utanför tidsramen 9-19 behöver du inte ha parkeringsskiva.
 ```
 
 ---
