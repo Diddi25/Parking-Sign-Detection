@@ -1,7 +1,7 @@
 
 # AI-Powered Parking Sign Translator
 
-A cutting-edge solution for interpreting parking signs using deep learning and computer vision. This project simplifies parking regulations for drivers by translating complex parking signage into clear, actionable text.
+A cutting-edge solution for interpreting parking signs using deep learning and computer vision. This project simplifies parking regulations for drivers by translating complex parking signage into comprehensible and simple text.
 
 [![Python](https://img.shields.io/badge/Python-3.8%2B-blue)](https://www.python.org/)  
 [![License](https://img.shields.io/badge/License-CC%20BY%204.0-blue)](https://creativecommons.org/licenses/by/4.0/)  
