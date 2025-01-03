@@ -96,7 +96,7 @@ python end2end.py
 
 **Output**:
 ```plaintext
-Based on the current date today: 2025-01-03, Friday, at time: 19:06:
+Based on the current date today: 2025-01-03, Friday, at time: 18:07:
 You are allowed to park between: 9-19.
 You can park up to: 1 timmar.
 You have to have a parking disc.
