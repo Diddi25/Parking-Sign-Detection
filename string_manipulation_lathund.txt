@@ -1,0 +1,34 @@
+Detected text: "P"
+Length: 1 (single character)
+
+Detected text: "1 tim"
+Length: 5 (characters: 1, space, t, i, m)
+
+Detected text: "9-19"
+Length: 4 (characters: 9, -, 1, 9)
+
+Detected text: "P"
+Length: 1 (single character)
+
+Detected text: "(9-15))"
+Length: 7 (characters: (, 9, -, 1, 5, ), ))
+
+Tabell för taggar:
+
+Label ID	Class Name
+0	bus
+1	car
+2	charging
+3	cycle
+4	dayBeforeHoliday
+5	fee
+6	handicapped
+7	holiday
+8	motorcycle
+9	parking_disc
+10	prohibitedParkingDayBefore
+11	prohibitedParkingHoliday
+12	prohibitedParkingWeekday
+13	timetable
+14	weekday
+
