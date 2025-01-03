@@ -5,7 +5,7 @@ An AI project for interpreting parking signs using deep learning and computer vi
 
 ---
 
-## Contributions
+## Contributors
 
 This project was developed by:
 - **Dipsikha (Diddi) Dutta** ([dipsikha@kth.se](mailto:dipsikha@kth.se))
